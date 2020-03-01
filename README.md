@@ -1,5 +1,7 @@
-
 # Docker DNS-over-TLS
+
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/reijkelenberg/dns-over-tls.svg)
+![GitHub](https://img.shields.io/github/license/reijkelenberg/docker-dns-over-tls)
 
 This container contains a simple Nginx reverse proxy for providing DNS-over-TLS (DoT). Upstream, Pi-hole could be used to block domains that distribute advertisements or malware.
 
