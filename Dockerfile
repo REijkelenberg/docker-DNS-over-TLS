@@ -1,5 +1,9 @@
 FROM nginx:mainline-alpine
 
+# Information about this build
+ENV IMAGE_VERSION	"1.0"
+ENV BUILD_DATE		"$(date)"
+
 # ENV variables
 #	Note: /etc/letsencrypt/live is the default location for LetsEncrypt certificates
 ENV DNS_UPSTREAM_ADDRESS	"127.0.0.1"
