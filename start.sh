@@ -3,6 +3,7 @@
 # This script initialises the DoT Docker container if required, and starts nginx running in the foreground  
 
 echo "Container is starting..."
+echo "Image version: $IMAGE_VERSION\nBuild date: $BUILD_DATE"
 
 # Initialise nginx on first run
 if [ -f /first_run.txt ] && [ "$FIRST_RUN_AUTO_INIT" == "true" ]
